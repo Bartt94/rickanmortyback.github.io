@@ -1,0 +1,23 @@
+{
+  "name": "backreickandmorty",
+  "version": "1.0.0",
+  "description": "back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Bartolo240894@bitbucket.org/projects-personales/backreickandmorty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/projects-personales/backreickandmorty/issues"
+  },
+  "homepage": "https://bitbucket.org/projects-personales/backreickandmorty#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
