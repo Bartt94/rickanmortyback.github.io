@@ -1,14 +1,9 @@
 var express = require('express'); //llamamos a Express
+require('dotenv').config();
 var app = express();
 
-// const express = require("express");
 const request = require("request");
 const cors = require("cors");
-// const exphbs = require("express-handlebars");
-// const app = express();
-
-// app.engine("handlebars",exphbs());
-// app.set("view engine","handlebars");
 
 app.use(
 cors({
@@ -24,7 +19,7 @@ app.get('/', function(req, res) {
 });
 
 app.get("/personajes",(req,res)=>{
-    request("https://rickandmortyapi.com/api/character/",(error,response,body)=>{
+    request(process.env.URLAPIPERSONAJES,(error,response,body)=>{
 
       if (error) {
           return res.status(400).json({
