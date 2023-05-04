@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://bitbucket.org/projects-personales/backreickandmorty/issues"
   },
-  "homepage": "https://bitbucket.org/projects-personales/backreickandmorty#app/server.js",
+  "homepage": "https://bitbucket.org/projects-personales/backreickandmorty#app#server.js",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
