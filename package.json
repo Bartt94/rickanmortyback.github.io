@@ -2,7 +2,7 @@
   "name": "backreickandmorty",
   "version": "1.0.0",
   "description": "back",
-  "main": "index.js",
+  "main": "app/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app/server.js"
